@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #F2BBC9;
+}
+
+h1 {
+    color: #271959;
+    text-shadow: 2px 2px 0 #FEDFE4, -2px -2px 0 #FEDFE4, 2px -2px 0 #FEDFE4, -2px 2px 0 #FEDFE4;
+}
+
+
+.container {
+    text-align: center;
+    background-color: #F2BBC9;
+}
+
+#message {
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #4caf50;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: none;
+}
+
+/* Estilo de cada unidad de tiempo en el contador */
+#counter span {
+    font-size: 1.5em;
+    color: #FFFFFF; 
+    background-color: #FEDFE4;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 0 5px;
+    display: inline-block; /* Agregado para que la animación funcione */
+    animation: fadeInDown 0.5s ease-out; /* Nueva animación de caída */
+}
+
+
+/* Nueva animación de caída */
+@keyframes fadeInDown {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
