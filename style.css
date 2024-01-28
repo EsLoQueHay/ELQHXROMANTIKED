@@ -13,6 +13,11 @@ h1 {
     text-shadow: 2px 2px 0 #FEDFE4, -2px -2px 0 #FEDFE4, 2px -2px 0 #FEDFE4, -2px 2px 0 #FEDFE4;
 }
 
+h2 {
+    color: #271959;
+    text-shadow: 2px 2px 0 #FEDFE4, -2px -2px 0 #FEDFE4, 2px -2px 0 #FEDFE4, -2px 2px 0 #FEDFE4;
+}
+
 
 .container {
     text-align: center;
