@@ -35,7 +35,10 @@ document.addEventListener('DOMContentLoaded', function () {
     function showFinalMessage() {
         hideCounterElements();
         messageElement.style.display = 'block';
+        document.querySelector('h2').style.display = 'none'; 
+        document.getElementById('counter').style.display = 'none'; 
     }
+
 
     function hideCounterElements() {
         daysElement.style.display = 'none';
