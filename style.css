@@ -1,50 +1,83 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     align-items: center;
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background-color: #F2BBC9;
+    background-image: url('img/Fondo ELQH.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 
 h1 {
-    color: #271959;
-    text-shadow: 2px 2px 0 #FEDFE4, -2px -2px 0 #FEDFE4, 2px -2px 0 #FEDFE4, -2px 2px 0 #FEDFE4;
+    color: transparent;
+    background: url('img/ES LO QUE HAY LETRA.png') no-repeat center center;
+    background-size: contain; 
+    text-align: center; 
+    line-height: 50vh; 
+    
 }
 
 h2 {
     color: #271959;
     text-shadow: 2px 2px 0 #FEDFE4, -2px -2px 0 #FEDFE4, 2px -2px 0 #FEDFE4, -2px 2px 0 #FEDFE4;
+    font-family: 'Gloria Hallelujah';
 }
 
+.gloria-hallelujah-regular {
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .container {
     text-align: center;
-    background-color: #F2BBC9;
+    flex: 1;
 }
 
 #message {
-    font-size: 1.2em;
-    color: #fff;
-    background-color: #4caf50;
+    font-size: 2em;
     padding: 10px;
     border-radius: 5px;
     margin-top: 20px;
     display: none;
+    color: #271959;
+    text-shadow: 2px 2px 0 #FEDFE4, -2px -2px 0 #FEDFE4, 2px -2px 0 #FEDFE4, -2px 2px 0 #FEDFE4;
+    font-family: 'Gloria Hallelujah';
 }
 
-/* Estilo de cada unidad de tiempo en el contador */
 #counter span {
     font-size: 1.5em;
-    color: #FFFFFF; 
+    color: #271959; 
     background-color: #FEDFE4;
     padding: 8px;
     border-radius: 5px;
     margin: 0 5px;
-    display: inline-block; /* Agregado para que la animación funcione */
-    animation: fadeInDown 0.5s ease-out; /* Nueva animación de caída */
+    display: inline-block;
+    animation: fadeInDown 0.5s ease-out;
 }
+
+footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    background-color: rgba(240, 240, 240, 0.0);
+    padding: 10px;
+}
+
+footer img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100px; 
+    margin: 5px;
+}
+
+
 
 
 /* Nueva animación de caída */
