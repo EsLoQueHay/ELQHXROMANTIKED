@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var secondsElement = document.getElementById('seconds');
     var messageElement = document.getElementById('message');
 
-    var targetDate = new Date('2024-02-16T11:00:00').getTime();
+    var targetDate = new Date('2024-04-19T12:00:00').getTime();
 
     function updateCounter() {
         var currentDate = new Date().getTime();
