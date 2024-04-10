@@ -7,7 +7,7 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background-image: url('img/FONDO ELQH.jpg');
+    background-image: url('img/FONDO ELQH4.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -25,6 +25,7 @@ h1 {
 h2 {
     color: #271959;
     text-shadow: 2px 2px 0 #FEDFE4, -2px -2px 0 #FEDFE4, 2px -2px 0 #FEDFE4, -2px 2px 0 #FEDFE4;
+    /*text-shadow: 2px 2px 0 #FFFFFF, -2px -2px 0 #FFFFFF, 2px -2px 0 #FFFFFF, -2px 2px 0 #FFFFFF;*/
     font-family: 'Gloria Hallelujah';
 }
 
@@ -45,7 +46,8 @@ h2 {
     border-radius: 5px;
     margin-top: 20px;
     display: none;
-    color: #271959;
+    /*color: #271959;*/
+    color: #FFFFFF;
     text-shadow: 2px 2px 0 #FEDFE4, -2px -2px 0 #FEDFE4, 2px -2px 0 #FEDFE4, -2px 2px 0 #FEDFE4;
     font-family: 'Gloria Hallelujah';
 }
@@ -73,7 +75,7 @@ footer {
 footer img {
     max-width: 100%;
     height: auto;
-    max-height: 100px; 
+    max-height: 200px; 
     margin: 5px;
 }
 
